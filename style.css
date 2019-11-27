@@ -1,16 +1,11 @@
-html body
-{
-
-
+html body {
   background-color: skyblue;
   width: 100%;
   font-size: 25px;
   color: #fff;
 }
 
- header {
-  
-  
+header {
   text-align: center;
   font-size: 30px;
   background-color: limegreen;
@@ -18,4 +13,23 @@ html body
   top: 0;
   right: 0px;
   width: 100%;
- } 
+}
+
+@media (max-width: 700px) {
+  nav {
+    display: none;
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+ img {
+   align-self: center;
+   height: 100%;
+   width: auto;
+   border: 0;
+   flex-grow: 1;
+ }
