@@ -1,0 +1,21 @@
+html body
+{
+
+
+  background-color: skyblue;
+  width: 100%;
+  font-size: 25px;
+  color: #fff;
+}
+
+ header {
+  
+  
+  text-align: center;
+  font-size: 30px;
+  background-color: limegreen;
+  position: fixed;
+  top: 0;
+  right: 0px;
+  width: 100%;
+ } 
